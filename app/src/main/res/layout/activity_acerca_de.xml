@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ae103e52f20f60c6171fa906a59fd702"
+    tools:context="com.example.dell.datoscolombia.acercade.AcercaDe">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="59dp"
+        android:layout_y="64dp"
+        android:text="Ingeniero Villota"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="260dp"
+        android:layout_y="411dp"
+        app:srcCompat="@mipmap/lol"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="203dp"
+        android:layout_height="205dp"
+        android:layout_x="88dp"
+        android:layout_y="147dp"
+        app:srcCompat="@mipmap/phone"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+</android.widget.AbsoluteLayout>
